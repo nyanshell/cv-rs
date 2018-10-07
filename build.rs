@@ -95,7 +95,6 @@ mod unix {
         println!("cargo:rustc-link-search=native=/usr/local/lib");
         println!("cargo:rustc-link-lib=opencv_core");
         println!("cargo:rustc-link-lib=opencv_features2d");
-        println!("cargo:rustc-link-lib=opencv_xfeatures2d");
         println!("cargo:rustc-link-lib=opencv_highgui");
         println!("cargo:rustc-link-lib=opencv_img_hash");
         println!("cargo:rustc-link-lib=opencv_imgcodecs");
